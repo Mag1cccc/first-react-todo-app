@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addTask {
+  width: 50%;
+  height: 140px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  border-radius: 10px;
+  gap: 16px;
+}
+
+.addTask input {
+  width: 300px;
+  height: 40px;
+  border-radius: 6px;
+  border: 1.6px solid rgb(102, 240, 102);
+  color: rgb(102, 240, 102);
+}
+
+.addTask button {
+  width: 100px;
+  height: 30px;
+  border: 0;
+  background-color: rgb(102, 240, 102);
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.addedTask {
+  width: 800px;
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+}
+
+.addedTask button {
+  width: 110px;
+  height: 30px;
+  border: 0;
+  background-color: rgb(102, 240, 102);
+  color: red;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.addedTask h1 {
+  color: rgb(102, 240, 102);
+  font-size: 50px;
+}
